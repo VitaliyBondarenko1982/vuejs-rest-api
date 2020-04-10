@@ -1,0 +1,26 @@
+{
+  "name": "js-rest-api",
+  "version": "1.0.0",
+  "description": "rest api full stack app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "js",
+    "rest",
+    "api",
+    "vue"
+  ],
+  "author": "Vitalii",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
